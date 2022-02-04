@@ -51,6 +51,8 @@ if c1<d1:
       d1=l
 print("Max of c1 and d1:",c1)        
 if a1<c1:
-     print("The max number is:",c1)     
-else:
-      print("The max number is:",a1)    
+    r=a1
+    a1=c1
+    c1=r
+    
+print("The max number is:",a1)     

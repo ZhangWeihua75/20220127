@@ -1,0 +1,8 @@
+a=range(1,10,3)
+b=list(a)
+print("List b=",b)
+a1=range(1,5)
+print(type(a1))
+print(list(a1))
+a2=range(10)
+print(list(a2))

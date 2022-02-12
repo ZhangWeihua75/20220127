@@ -1,0 +1,2 @@
+import defModule
+defModule.test()

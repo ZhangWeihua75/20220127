@@ -23,11 +23,18 @@ print(banana1(5.1))
 
 #练习 构造一个闭包程序，能够根据需要计算平方，立方
 
-def lifang(a):
-    def pingfang(b):
-        return b*b*a
-    return pingfang
+def pingfang(a):
+    def mul(b):
+        return b*a
+    return mul
 
-a1=lifang(5)
+a1=pingfang(5)
 print(a1(5))
 
+def lifang(c):
+    def pf(a):
+        return a*a*c
+    return pf 
+
+b1=lifang(5)
+print(b1(5))

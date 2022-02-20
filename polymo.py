@@ -13,7 +13,7 @@ class finStudent(student):
      def study(self):
         print("我在学习财务分析")   
         
-def startStudy(student):
+def fun(student):
      print("----学生说----") 
      student.study() 
        
@@ -25,9 +25,9 @@ cs1.study()
 fin1=finStudent()
 fin1.study()
 
-startStudy(s1)
-startStudy(cs1)
-startStudy(fin1)
+fun(s1)
+fun(cs1)
+fun(fin1)
 
 print(isinstance(cs1,student))
 

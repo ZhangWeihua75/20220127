@@ -21,3 +21,18 @@ zwh.show()
 zwh.setage(45)
 zwh.show()
 print(zwh.getage())        
+
+
+class student:
+    def __init__(self,name,height,weight):
+       self.name=name
+       self.__height=height
+       self.__weight=weight
+       
+    def study(self):
+        print("我在学习。")  
+    def setHeight(self,height):
+        self.__height=height
+
+s1=student("小明",18,70)       
+      
